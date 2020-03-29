@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Project() {
   return (
@@ -92,6 +93,7 @@ function Project() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
