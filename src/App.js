@@ -1,12 +1,18 @@
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from "./components/Contact";
 import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Main />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/contact" exact component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
