@@ -6,17 +6,17 @@ function Main() {
   return (
     <div>
       <Navbar />
-      <div class="container outer-div">
-        <div class="row inner-div">
-          <div class="row">
-            <div class="col-md-4">
+      <div className="container outer-div">
+        <div className="row inner-div">
+          <div className="row">
+            <div className="col-md-4">
               <h2>
-                <span class="label label-default about-me">About Me</span>
+                <span className="label label-default about-me">About Me</span>
               </h2>
-              <img src="assets/myimg.jpg" class="my-pic" alt="My picture" />
+              <img src="/assets/myimg.jpg" className="my-pic" alt="Beenish" />
             </div>
-            <div class="col-md-8">
-              <section class="mainCollection">
+            <div className="col-md-8">
+              <section className="mainCollection">
                 <p>
                   {" "}
                   My name is Beenish Munir Butt.
