@@ -5,9 +5,9 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <div class="container outer-div">
-        <div class="card">
-          <div class="card-body">
+      <div className="container outer-div">
+        <div className="card">
+          <div className="card-body">
             <h2>Contact Details</h2>
             <hr />
             <h4>Email:</h4>

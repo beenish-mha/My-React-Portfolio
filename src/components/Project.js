@@ -5,43 +5,43 @@ function Project() {
   return (
     <div>
       <Navbar />
-      <div class="container outer-div">
-        <div class="row ">
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-              <div class="card">
+      <div className="container outer-div">
+        <div className="row ">
+          <div className="row row-cols-1 row-cols-md-2">
+            <div className="col mb-4">
+              <div className="card">
                 <img
                   src="assets/1st project.jpg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Living in the scene"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href="https://beenish-mha.github.io/Living-in-the-scene/">
                       Living In The Scene
                     </a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     A mobile first web app to search for the filming locations
                     of your favourite movies.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col mb-4">
-              <div class="card">
+            <div className="col mb-4">
+              <div className="card">
                 <img
                   src="assets/2nd project.png"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="myCookBook"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="https://beenish-mha.github.io/TeamPhoenixProject/">
+                <div className="card-body">
+                  <h5 className="card-title">
+                    <a href="https://team-phoenix-project2.herokuapp.com/">
                       myCookBook
                     </a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     A place to create and save your own recipes.
                   </p>
                 </div>
@@ -49,40 +49,40 @@ function Project() {
             </div>
           </div>
         </div>
-        <div class="row ">
-          <div class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-              <div class="card">
+        <div className="row ">
+          <div className="row row-cols-1 row-cols-md-2">
+            <div className="col mb-4">
+              <div className="card">
                 <img
                   src="assets/office day planner.jpg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Living in the scene"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href=" https://beenish-mha.github.io/Office-Day-Planner/">
                       Office Day Planner
                     </a>
                   </h5>
-                  <p class="card-text">A Day Planner for office hours.</p>
+                  <p className="card-text">A Day Planner for office hours.</p>
                 </div>
               </div>
             </div>
-            <div class="col mb-4">
-              <div class="card">
+            <div className="col mb-4">
+              <div className="card">
                 <img
                   src="assets/Employee Tracker.jpg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="employee tracer"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">
+                <div className="card-body">
+                  <h5 className="card-title">
                     <a href=" https://beenish-mha.github.io/MySQL-Employee-Tracker/">
                       {" "}
                       Employee Tracker
                     </a>
                   </h5>
-                  <p class="card-text">
+                  <p className="card-text">
                     managing a company's employees using node, inquirer, and
                     MySQL.
                   </p>
