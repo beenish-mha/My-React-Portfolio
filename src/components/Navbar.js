@@ -10,12 +10,10 @@ function Navbar() {
           <li class="nav-item">Home</li>
         </Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link nav-project" href="project.html">
-          Projects
-        </a>
-      </li>
-      <Link to="/Contact">
+      <Link to="/project">
+        <li class="nav-item">Projects</li>
+      </Link>
+      <Link to="/contact">
         <li class="nav-item">Contact</li>
       </Link>
       <a class="nav-link" href="https://www.linkedin.com/in/beenish-butt/">
