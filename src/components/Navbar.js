@@ -5,16 +5,15 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <ul class="nav nav-all">
-      <li class="nav-item">
-        <Link to="/">
-          <li class="nav-item">Home</li>
-        </Link>
-      </li>
+      <Link to="/">
+        <li class="nav-link">Home</li>
+      </Link>
+
       <Link to="/project">
-        <li class="nav-item">Projects</li>
+        <li class="nav-link">Projects</li>
       </Link>
       <Link to="/contact">
-        <li class="nav-item">Contact</li>
+        <li class="nav-link">Contact</li>
       </Link>
       <a class="nav-link" href="https://www.linkedin.com/in/beenish-butt/">
         linkedIn:
