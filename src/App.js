@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Project from "./components/Project";
+import "./style.css";
 
 function App() {
   return (
