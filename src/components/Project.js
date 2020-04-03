@@ -38,7 +38,7 @@ function Project() {
                 />
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="https://beenish-mha.github.io/TeamPhoenixProject/">
+                    <a href="https://team-phoenix-project2.herokuapp.com/">
                       myCookBook
                     </a>
                   </h5>
